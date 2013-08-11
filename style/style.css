@@ -774,7 +774,7 @@ footer {
 {
   text-align: center;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 #title_h1{
@@ -800,6 +800,7 @@ footer {
 }
 #nav_list{
   margin-bottom: 35px;
+  margin-top: -15px; 
 }
 
 #arrow
@@ -1062,12 +1063,12 @@ footer
   position: relative;
   float: left;
   top: 1%;
-  left: 120px;
+  left: 115px;
 }
 
 #nav_icons
 {
-  right: 15px;
+  right: 7px;
   position: relative;
 }
 #nav_list1
