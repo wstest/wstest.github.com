@@ -8,11 +8,11 @@ img, embed, object, video {
 
 @font-face {
     font-family: 'vegurregular';
-    src: url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.eot');
-    src: url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.woff') format('woff'),
-         url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.ttf') format('truetype'),
-         url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.svg#vegurregular') format('svg');
+    src: url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.eot');
+    src: url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.woff') format('woff'),
+         url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.ttf') format('truetype'),
+         url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.svg#vegurregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -739,6 +739,22 @@ section{
   transition:  .4s ;
 
 }
+
+#nav_list1
+{
+  position: relative;
+  margin-top: 80px;
+  word-spacing: 20px;
+  padding-bottom: -15px;
+}
+
+#nav_icons1
+{
+  text-align: center;
+  position: relative;
+  padding-bottom: -20px;
+}
+
 #blog section img
 {
 
@@ -746,7 +762,7 @@ section{
   height: 100%;
   max-width: 100%;
   max-height: 100%;
-  padding-bottom: 30px;
+  margin-bottom: -30px;
 }
   #blog section img
 {
@@ -795,6 +811,28 @@ section{
   transition:  .4s ;
 
 }
+
+#nav_icons
+{
+  margin-top: -40px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+#nav_list1
+{
+  position: relative;
+  top: -10px;
+}
+
+#nav_icons1
+{
+  text-align: center;
+  position: relative;
+  top: -48px;
+  margin-bottom: 20px;
+}
+
 #blog section img
 {
   width: 100%;
@@ -881,6 +919,26 @@ section{
   transition:  .4s ;
 
 }
+#nav_icons
+{
+  margin-top: -50px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+#nav_list1
+{
+  position: relative;
+  top: -30px;
+}
+
+#nav_icons1
+{
+  text-align: center;
+  position: relative;
+  top: -48px;
+  margin-bottom: -80px;
+}
   #blog section img
 {
 
@@ -950,17 +1008,35 @@ h1, #blog section h2 {
   max-width: 250px;
 }
 
-  #nav_list
+#nav_list
 {
   position: relative;
   float: left;
   top: 1%;
-  left: 145px;
+  left: 120px;
   padding-right: 5%;
-  margin-top: -10px;
-
 }
 
+#nav_icons
+{
+  margin-top: -50px;
+  right: 15px;
+  position: relative;
+}
+
+#nav_list1
+{
+  position: relative;
+  top: -30px;
+}
+
+#nav_icons1
+{
+  text-align: center;
+  position: relative;
+  top: -48px;
+  margin-bottom: -80px;
+}
 
   .main_navigation img{
     height: 73.5px;

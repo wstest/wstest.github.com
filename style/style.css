@@ -8,11 +8,11 @@ img, embed, object, video {
 
 @font-face {
     font-family: 'vegurregular';
-    src: url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.eot');
-    src: url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.woff') format('woff'),
-         url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.ttf') format('truetype'),
-         url('http://willstanley.co/vegur/vegur-regular-webfont-webfont.svg#vegurregular') format('svg');
+    src: url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.eot');
+    src: url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.woff') format('woff'),
+         url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.ttf') format('truetype'),
+         url('http://wstest.github.io/vegur/vegur-regular-webfont-webfont.svg#vegurregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -109,6 +109,19 @@ hr::after {
 {
   text-align: center;
   word-spacing: 20px;
+}
+
+#nav_list1
+{
+  position: relative;
+  top: -30px;
+  word-spacing: 20px;
+}
+
+#nav_icons1
+{
+  text-align: center;
+  position: relative;
 }
 
 .more
@@ -664,7 +677,7 @@ text-align: center;
 /*** FOOTER ***/
 /**************/
 footer {
-  padding-top: 100em;
+  padding-bottom: 1em;
 }
 
 /* aligns links with grid */
@@ -748,6 +761,20 @@ footer {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+#nav_list1
+{
+  position: relative;
+  top: 3px;
+  word-spacing: 20px;
+}
+
+#nav_icons1
+{
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
 }
 
 #title_h1{
@@ -874,7 +901,7 @@ section
 }
 
 footer {
-  padding-top: 150em;
+
 }
   /* H2 = 30px */
   h2 {  
@@ -1027,7 +1054,7 @@ footer {
 
 footer
 {
-  padding-top: 50em;
+
 }
 
 #nav_list
@@ -1035,9 +1062,26 @@ footer
   position: relative;
   float: left;
   top: 1%;
-  left: 145px;
-
+  left: 120px;
 }
+
+#nav_icons
+{
+  right: 15px;
+  position: relative;
+}
+#nav_list1
+{
+  position: relative;
+  top: -30px;
+}
+
+#nav_icons1
+{
+  text-align: center;
+  position: relative;
+}
+
 
   /* if IE9 */
   .ie9 body {
@@ -1101,7 +1145,7 @@ footer
     height: 73.5px;
     width: 245px;
     float: left;
-    top: 10px;
+    margin-top: -10px;
     left: 20px;
     z-index: 1;
   }
