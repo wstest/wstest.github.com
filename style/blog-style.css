@@ -1008,36 +1008,36 @@ h1, #blog section h2 {
 
 
 /* large screen */
-@media screen and (min-width: 1260px){
+@media screen and (min-width: 800px){
   body {
     font-size: 1.5em; /* base font: 24px */
-    margin: 2.65em auto;
-    width: 100%;
+    margin-top: 2.65em;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 900px;
   }
 
   section
   {
-    width: 180px;
+    width: 140px;
     height: 200px;
   }
   #blog section img
 {
 
-  max-width: 250px;
+  max-width: 190px;
 }
 
 #nav_list
 {
   position: relative;
   float: left;
-  top: 1%;
+  top: -15px;
   left: 115px;
-  padding-right: 5%;
 }
 
 #nav_icons
 {
-  margin-top: -50px;
   right: 7px;
   position: relative;
 }
@@ -1060,10 +1060,9 @@ h1, #blog section h2 {
     height: 73.5px;
     width: 245px;
     float: left;
-    margin-top: 10px;
+    margin-top: -5px;
     left: 20px;
     z-index: 1;
-    padding-right: 5%;
   }
 
   section
