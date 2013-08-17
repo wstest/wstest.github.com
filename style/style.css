@@ -1054,8 +1054,13 @@ footer {
   margin-right: -70px;
   padding-bottom: -20px;
   float: right;
-
 }
+  #blog section img{
+     max-height:280px;
+     max-width: 247px;
+     width: auto;
+     height: auto;
+  }
 
 footer
 {
@@ -1219,6 +1224,9 @@ footer
 
   .text img {
     max-width: 736px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
   }
 
   /* fixes the height of cover image and content under it */
