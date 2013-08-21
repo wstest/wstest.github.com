@@ -1072,6 +1072,12 @@ footer {
 	max-height: 300px;
 }
 
+#midnight1
+{
+	position: relative;
+	top: -200px;
+}
+
 
 footer
 {
@@ -1083,7 +1089,7 @@ footer
   position: relative;
   float: left;
   top: 1%;
-  left: 115px;
+  left: 109px;
 }
 
 #nav_icons
