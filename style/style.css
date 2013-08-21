@@ -1037,7 +1037,7 @@ footer {
     margin-top: 2.65em;
     margin-right: 0px;
     margin-left: 0px;
-    width: 900px;
+    width: 1000px;
   }
   #content
   {
@@ -1045,9 +1045,9 @@ footer {
   }
 
   #blog section{
-  width: 240px;
+  width: 270px;
   display: inline-block;
-  top: -20px;
+  top: -40px;
   right: -120px;
   margin: 0 auto;
   position: relative;
@@ -1057,11 +1057,21 @@ footer {
   float: right;
 }
   #blog section img{
-     max-height:280px;
-     max-width: 247px;
+     max-height:310px;
+     max-width: 275px;
      width: auto;
      height: auto;
   }
+
+  #blog section img:hover{
+  	z-index: 1;
+  }
+
+#tiny img
+{
+	max-height: 300px;
+}
+
 
 footer
 {

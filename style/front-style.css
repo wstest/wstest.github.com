@@ -1036,7 +1036,7 @@ footer {
     margin-top: 2.65em;
     margin-right: 0px;
     margin-left: 0px;
-    width: 900px;
+    width: 1000px;
   }
   #content
   {
@@ -1045,7 +1045,7 @@ footer {
   }
 
   #blog section{
-  width: 300px;
+  width: 320px;
   display: inline-block;
   top: -100px;
   right: -120px;
@@ -1066,18 +1066,35 @@ footer {
   #humans
   {
     position: absolute;
-    left: -190px;
-    top: 35px;
+    top: 347px;
+    right: 367px;
   }
   #midnight_noise
   {
-    margin-left: -245px;
-    margin-top: -32px;
+  	position: absolute;
+  	top: 347px;
+  	right: 140px;
+  	padding-bottom: 50px;
+
+  }
+  #urban
+  {
+  	position: absolute;
+  	right: 142px;
+  }
+  #momentum
+  {
+  	position: absolute;
+  }
+  #tiny_humans
+  {
+  	position: absolute;
+  	right: 113px;
   }
 
 footer
 {
-
+	
 }
 
 #nav_list
