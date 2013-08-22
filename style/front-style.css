@@ -1058,7 +1058,7 @@ footer {
 }
   #blog section img{
      max-height:370px;
-     max-width: 570px;
+     max-width: 610px;
      width: auto;
      height: auto;
   }
@@ -1067,20 +1067,26 @@ footer {
   {
     position: absolute;
     top: 347px;
-    right: 367px;
+    left: 20px;
   }
   #midnight_noise
   {
   	position: absolute;
   	top: 347px;
-  	right: 140px;
+  	right: 92px;
   	padding-bottom: 50px;
+
+  }
+  #midnight_noise img
+  {
+  	width: 610px;
 
   }
   #urban
   {
   	position: absolute;
-  	right: 142px;
+  	left: 15px;
+  	top: 82px;
   }
   #momentum
   {
@@ -1089,7 +1095,43 @@ footer {
   #tiny_humans
   {
   	position: absolute;
-  	right: 113px;
+  	left: 10px;
+  	top: 26.5px;
+  }
+  #humans_l
+  {
+    position: absolute;
+    top: 725px;
+    left: -250px;
+
+  }
+  #humans_l img
+  {
+    max-width:200px;
+    max-height: 500px;
+
+  }
+
+  #urban_l
+  {
+  	position: absolute;
+    top: 835px;
+    right: 90px;
+
+  }
+  #momentum_l
+  {
+  	position: absolute;
+    top: 1155px;
+    right: 150px;
+	padding-bottom: 50px;
+  }
+  #tiny_humans_l
+  {
+  	position: absolute;
+    top: 1210px;
+    left: 490px;
+
   }
 
 footer
