@@ -36,6 +36,11 @@ body {
 
 }
 
+p
+{
+	text-align: center;
+}
+
 
 section{
   width: 450px;
