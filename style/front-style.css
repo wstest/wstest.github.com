@@ -1030,7 +1030,7 @@ footer {
 
 
 /* large screen */
-@media screen and (min-width: 800px){
+@media screen and (min-width: 500px){
   body {
     font-size: 1.5em; /* base font: 24px */
     margin-top: 2.65em;

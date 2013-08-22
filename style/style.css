@@ -922,7 +922,7 @@ footer {
 
   /* P = 24px */
   p, ul, ol, blockquote, pre, .gist {
-    font-size: 2em; /* 22px */
+    font-size: 1.5em; /* 22px */
     line-height: 1.45454545em; /* 32 px */
     margin: 0 0 1.45454545em 0;
   }
